@@ -117,16 +117,17 @@ void game2()
 		{
 			printf("再大一點\n");
 		}
-		else if (a > b)
+		if (a > b)
 		{
 			printf("再小一點\n");
 		}
-		else if (a == b)
+		c += 1;
+		if (a == b)
 		{
 			printf("恭喜答對!!\n");
 			printf("總共猜了%d次\n", c);
 			break;
 		}
-		c += 1;
+		
 	}
 }
