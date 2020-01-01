@@ -110,7 +110,7 @@ void game2()
 	while (1)
 	{
 		
-		printf("輸入一個介於0~1000數：\n");
+		printf("輸入一個數介於0~9999：\n");
 		scanf_s("%d", &a);
 
 		if (a < b)
